@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{34036844-64E7-43A5-9151-4AD90E180989}") = "IotOfflineTest", "IotOfflineTest\IotOfflineTest.iotedgeproj", "{266D2C88-B92E-459A-85C7-B0CC7DF51E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfflineModule", "OfflineModule\OfflineModule.csproj", "{21C47B20-3D9A-49FC-82A6-9E661C9AEE43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{266D2C88-B92E-459A-85C7-B0CC7DF51E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266D2C88-B92E-459A-85C7-B0CC7DF51E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266D2C88-B92E-459A-85C7-B0CC7DF51E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266D2C88-B92E-459A-85C7-B0CC7DF51E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C47B20-3D9A-49FC-82A6-9E661C9AEE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C47B20-3D9A-49FC-82A6-9E661C9AEE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C47B20-3D9A-49FC-82A6-9E661C9AEE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C47B20-3D9A-49FC-82A6-9E661C9AEE43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3175493C-F2F4-45B1-8271-C7009DDFB522}
+	EndGlobalSection
+EndGlobal
